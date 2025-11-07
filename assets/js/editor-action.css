@@ -1,0 +1,25 @@
+.jet-form-builder-fieldset--fluentcrm-setup .jet-form-builder-fieldset__row--grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+	gap: 16px;
+	align-items: end;
+}
+
+.jet-form-builder-fieldset--fluentcrm-setup .components-base-control,
+.jet-form-builder-fieldset--fluentcrm-setup .jet-form-builder-fieldset__row--grid .components-base-control {
+	width: 100%;
+}
+
+.jet-form-builder-fieldset--fluentcrm-setup .components-form-token-field {
+	width: 100%;
+}
+
+.jet-form-builder-fieldset--fluentcrm-setup .components-base-control__field select {
+	min-width: 220px;
+}
+
+.jet-form-builder-separator {
+	border: none;
+	border-top: 1px solid var(--jet-form-builder-border-color, #dcdcde);
+	margin: 16px 0;
+}

@@ -1,0 +1,246 @@
+# Copyright (C) 2025 Soczó Kristóf
+# This file is distributed under the same license as the Fluent Subscriptions for JetFormBuilder plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Fluent Subscriptions for JetFormBuilder 0.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fluent-subs-for-jetformbuilder\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-11-07T10:53:35+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: fluent-subs-for-jetformbuilder\n"
+
+#. Plugin Name of the plugin
+#: fluent-subs-for-jetformbuilder.php
+msgid "Fluent Subscriptions for JetFormBuilder"
+msgstr ""
+
+#. Description of the plugin
+#: fluent-subs-for-jetformbuilder.php
+msgid "Adds a FluentCRM subscription action to JetFormBuilder forms."
+msgstr ""
+
+#. Author of the plugin
+#: fluent-subs-for-jetformbuilder.php
+msgid "Soczó Kristóf"
+msgstr ""
+
+#. translators: 1: required PHP version, 2: current PHP version
+#: fluent-subs-for-jetformbuilder.php:81
+msgid "Requires PHP version %1$s or higher. Current version: %2$s."
+msgstr ""
+
+#. translators: 1: required WordPress version, 2: current WordPress version
+#: fluent-subs-for-jetformbuilder.php:92
+msgid "Requires WordPress version %1$s or higher. Current version: %2$s."
+msgstr ""
+
+#: fluent-subs-for-jetformbuilder.php:103
+msgid "Requires the JetFormBuilder plugin to be installed and active."
+msgstr ""
+
+#. translators: %s: minimum FluentCRM version
+#: fluent-subs-for-jetformbuilder.php:109
+msgid "Requires FluentCRM version %s or higher to be installed and active."
+msgstr ""
+
+#. translators: 1: required FluentCRM version, 2: current FluentCRM version
+#: fluent-subs-for-jetformbuilder.php:115
+msgid "Requires FluentCRM version %1$s or higher. Current version: %2$s."
+msgstr ""
+
+#: fluent-subs-for-jetformbuilder.php:135
+msgid "Fluent Subscriptions for JetFormBuilder could not be activated."
+msgstr ""
+
+#: fluent-subs-for-jetformbuilder.php:153
+msgid "Fluent Subscriptions for JetFormBuilder cannot run:"
+msgstr ""
+
+#: src/Actions/FluentCrmSubscribeAction.php:35
+msgid "FluentCRM Subscribe"
+msgstr ""
+
+#: src/Actions/FluentCrmSubscribeAction.php:44
+#: assets/js/editor-action.js:329
+#: assets/js/editor-action.js:342
+msgid "FluentCRM Lists"
+msgstr ""
+
+#: src/Actions/FluentCrmSubscribeAction.php:45
+#: assets/js/editor-action.js:360
+#: assets/js/editor-action.js:373
+msgid "Tags"
+msgstr ""
+
+#: src/Actions/FluentCrmSubscribeAction.php:46
+#: assets/js/editor-action.js:466
+msgid "Bypass double opt-in"
+msgstr ""
+
+#: src/Actions/FluentCrmSubscribeAction.php:47
+#: assets/js/editor-action.js:482
+msgid "Add only"
+msgstr ""
+
+#: src/Actions/FluentCrmSubscribeAction.php:48
+#: assets/js/editor-action.js:438
+msgid "Message if already subscribed"
+msgstr ""
+
+#: src/Actions/FluentCrmSubscribeAction.php:49
+#: assets/js/editor-action.js:452
+msgid "Message if contact data updated"
+msgstr ""
+
+#: src/Actions/FluentCrmSubscribeAction.php:50
+#: assets/js/editor-action.js:193
+msgid "Fields map"
+msgstr ""
+
+#: src/Actions/FluentCrmSubscribeAction.php:51
+msgid "Email field (ID)"
+msgstr ""
+
+#: src/Actions/FluentCrmSubscribeAction.php:52
+msgid "First name field (ID)"
+msgstr ""
+
+#: src/Actions/FluentCrmSubscribeAction.php:53
+msgid "Last name field (ID)"
+msgstr ""
+
+#: src/Actions/FluentCrmSubscribeAction.php:59
+msgid "Skip FluentCRM double opt-in confirmation email."
+msgstr ""
+
+#: src/Actions/FluentCrmSubscribeAction.php:60
+#: assets/js/editor-action.js:197
+msgid "Select which JetFormBuilder fields supply the subscriber contact information."
+msgstr ""
+
+#: src/Actions/FluentCrmSubscribeAction.php:61
+msgid "Provide the JetFormBuilder field ID that contains the subscriber email address."
+msgstr ""
+
+#: src/Actions/FluentCrmSubscribeAction.php:62
+msgid "Optional JetFormBuilder field ID storing the subscriber first name."
+msgstr ""
+
+#: src/Actions/FluentCrmSubscribeAction.php:63
+msgid "Optional JetFormBuilder field ID storing the subscriber last name."
+msgstr ""
+
+#: src/Actions/FluentCrmSubscribeAction.php:64
+msgid "Optional JetFormBuilder field ID storing the subscriber phone number."
+msgstr ""
+
+#: src/Actions/FluentCrmSubscribeAction.php:65
+msgid "Shown when the email address already belongs to a confirmed FluentCRM contact."
+msgstr ""
+
+#: src/Actions/FluentCrmSubscribeAction.php:66
+msgid "Shown when an existing FluentCRM contact is updated because Add only is disabled."
+msgstr ""
+
+#: src/Actions/FluentCrmSubscribeAction.php:67
+msgid "When enabled only new subscriptions are processed; existing contacts remain unchanged."
+msgstr ""
+
+#: src/Actions/FluentCrmSubscribeAction.php:113
+#: assets/js/editor-action.js:131
+msgid "Email field"
+msgstr ""
+
+#: src/Actions/FluentCrmSubscribeAction.php:114
+#: assets/js/editor-action.js:132
+msgid "JetFormBuilder field that stores the subscriber email address."
+msgstr ""
+
+#: src/Actions/FluentCrmSubscribeAction.php:119
+#: assets/js/editor-action.js:137
+msgid "First name field"
+msgstr ""
+
+#: src/Actions/FluentCrmSubscribeAction.php:120
+#: assets/js/editor-action.js:138
+msgid "JetFormBuilder field that stores the subscriber first name (optional)."
+msgstr ""
+
+#: src/Actions/FluentCrmSubscribeAction.php:125
+#: assets/js/editor-action.js:143
+msgid "Last name field"
+msgstr ""
+
+#: src/Actions/FluentCrmSubscribeAction.php:126
+#: assets/js/editor-action.js:144
+msgid "JetFormBuilder field that stores the subscriber last name (optional)."
+msgstr ""
+
+#: src/Actions/FluentCrmSubscribeAction.php:131
+#: assets/js/editor-action.js:149
+msgid "Phone field"
+msgstr ""
+
+#: src/Actions/FluentCrmSubscribeAction.php:132
+#: assets/js/editor-action.js:150
+msgid "JetFormBuilder field that stores the subscriber phone number (optional)."
+msgstr ""
+
+#: src/Actions/FluentCrmSubscribeAction.php:150
+msgid "FluentCRM subscription requires a valid email value."
+msgstr ""
+
+#: src/Actions/FluentCrmSubscribeAction.php:158
+msgid "FluentCRM subscription received an invalid email address."
+msgstr ""
+
+#: src/Actions/FluentCrmSubscribeAction.php:203
+msgid "This email address is already subscribed."
+msgstr ""
+
+#: src/Actions/FluentCrmSubscribeAction.php:219
+msgid "Unable to create or update the FluentCRM contact."
+msgstr ""
+
+#: src/Actions/FluentCrmSubscribeAction.php:227
+msgid "CRM Data updated"
+msgstr ""
+
+#. translators: %s: FluentCRM error message.
+#: src/Actions/FluentCrmSubscribeAction.php:248
+msgid "FluentCRM error: %s"
+msgstr ""
+
+#. translators: %1$s: entity type name; %2$s: numeric identifier.
+#: src/Services/FluentCrmData.php:77
+msgid "%1$s #%2$s"
+msgstr ""
+
+#: assets/js/editor-action.js:237
+msgid "FluentCRM field"
+msgstr ""
+
+#: assets/js/editor-action.js:238
+msgid "Form field"
+msgstr ""
+
+#: assets/js/editor-action.js:444
+msgid "Displayed when the email already belongs to a confirmed FluentCRM contact and Add only is enabled."
+msgstr ""
+
+#: assets/js/editor-action.js:458
+msgid "Displayed when an existing FluentCRM contact is updated because Add only is disabled."
+msgstr ""
+
+#: assets/js/editor-action.js:472
+msgid "If enabled, FluentCRM will skip the confirmation email and subscribe immediately."
+msgstr ""
+
+#: assets/js/editor-action.js:488
+msgid "When enabled, existing contacts remain unchanged and only new subscriptions are processed."
+msgstr ""
