@@ -1,11 +1,11 @@
 <?php
 /**
- * Plugin Name: Fluent Subscriptions for JetFormBuilder
+ * Plugin Name: FluentCRM Subscriptions for JetFormBuilder
  * Description: Adds a FluentCRM subscription action to JetFormBuilder forms.
- * Version: 1.0
+ * Version: 1.1
  * Author: Soczó Kristóf
  * Author URI: https://github.com/Lonsdale201?tab=repositories
- * Plugin URI: https://github.com/Lonsdale201/Fluent-Subscriptions-for-JetFormBuilder
+ * Plugin URI: https://github.com/Lonsdale201/fluentcrm-subscriptions-for-jetformbuilder
  * Text Domain: fluent-subs-for-jetformbuilder
  * License: GPLv2 or later
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html

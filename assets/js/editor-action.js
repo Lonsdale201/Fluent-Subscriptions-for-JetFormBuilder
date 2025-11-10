@@ -390,7 +390,9 @@ const tokenFieldProps = {
 		);
 	};
 
-	addAction( 'fluentcrm_subscribe', function FluentCrmSubscribe( props ) {
+addAction(
+	'fluentcrm_subscribe',
+	function FluentCrmSubscribe( props ) {
 		const { settings, label, onChangeSetting } = props;
 
 		const selectedLists = uniqueStrings( ensureArrayOfStrings( settings.list_id ) );
@@ -490,6 +492,24 @@ const tokenFieldProps = {
 						'fluent-subs-for-jetformbuilder'
 					),
 			} )
-		);
-	} );
+	);
+	},
+	{
+		category: 'communication',
+		docHref: 'https://github.com/Lonsdale201/fluentcrm-subscriptions-for-jetformbuilder',
+	}
+);
+
+	if ( wp?.data?.dispatch ) {
+		try {
+			wp.data.dispatch( 'jet-forms/actions' ).registerAction( {
+				type: 'fluentcrm_subscribe',
+				label: __( 'FluentCRM Subscribe', 'fluent-subs-for-jetformbuilder' ),
+				category: 'communication',
+				docHref: 'https://github.com/Lonsdale201/fluentcrm-subscriptions-for-jetformbuilder',
+			} );
+		} catch ( err ) {
+			// Do nothing if Jet Form Builder store is not ready yet.
+		}
+	}
 }( window.wp || false, window.JetFBActions || false, window.JetFluentCrmSubscribe || {}, window.jfb || {} ));

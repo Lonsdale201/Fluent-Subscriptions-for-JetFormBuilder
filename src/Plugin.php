@@ -16,7 +16,7 @@ use YahnisElsts\PluginUpdateChecker\v5p0\PucFactory;
 
 final class Plugin {
 
-	public const VERSION = '1.0';
+	public const VERSION = '1.1';
 	public const MINIMUM_FLUENTCRM_VERSION = '2.8.0';
 
 	private static ?self $instance = null;
